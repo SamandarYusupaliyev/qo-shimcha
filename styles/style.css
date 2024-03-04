@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #131518;
+}
+
+
+.container{
+    width: 100%;
+   width: 1110px;
+   padding:150px 300px;
+   margin:0 auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+ /* block1 qismi */
+.block1{
+    width: 410px;
+    height: 416px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
+  .card{
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+border: 2px solid #262E38;
+border-radius: 50%;
+fill: var(--Dark-Blue, #262E38);
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 32px;
+   margin-top: 32px;
+   margin-bottom: 20px;
+  }
+  
+
+.title{
+    color: white;
+    margin-top: 15px;
+    margin-left: 32.39px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text{
+    width: 344.126px;
+    margin-top: 15px;
+    margin-left: 32.39px;
+    margin-right: 33.49;
+    color: var(--Light-Grey, #969FAD);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Overpass;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 25px;
+}
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    padding-bottom: 40px;
+    
+  }
+   .item{
+    width: 51px;
+    height: 51px;
+    flex-shrink: 0;
+    fill: var(--Dark-Blue, #262E38);
+    border: 2px solid #262E38 ;
+    color: var(--Medium-Gray, #7C8798);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Rating */
+font-family: Overpass;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.2px;
+    border-radius: 70%;
+    padding-top: 10px;
+   }
+
+   .item_5{
+    width: 51px;
+    height: 51px;
+    flex-shrink: 0;
+    fill: var(--Dark-Blue, #262E38);
+    border: 2px solid #262E38 ;
+    color: var(--Pure-White, #FFF);
+   text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+
+/* Rating */
+font-family: Overpass;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.2px;
+border-radius: 70%;
+padding-top: 10px;
+background-color: #fc8c14;
+}
+
+.item:hover{
+    cursor: pointer;
+    transition-duration:2s;
+    background-color: #FC7614;
+    color:black;
+}
+
+   .item_5:hover{
+    cursor: pointer;
+    transition-duration: 2s;
+    color:black;
+   }
+.desc{
+    width: 345.138px;
+     height: 45px;
+     flex-shrink: 0;
+    margin-left: 32.39px;
+    margin-right: 39.47px;
+    margin-bottom: 32px;
+    border-radius: 22.5px;
+    background: #FC7614;  
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+}
+
+.desc:hover{
+    background: #53290b;
+    cursor: pointer;
+    transition-duration:2s;
+}
